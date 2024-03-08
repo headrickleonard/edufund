@@ -7,6 +7,7 @@ import NavBar from "../components/NavBar";
 import { Link } from "react-router-dom";
 import ChartComponent from "../components/Chart";
 import PieChart from "../components/PieChart";
+import Footer from "../components/Footer";
 function CustomHeader({ sideImage, desc, btnLabel }) {
   return (
     <div className="w-full h-screen flex md:flex-row md:items-center md:justify-center">
@@ -169,9 +170,8 @@ function Efa() {
           <DonateCard />
         </div>
       </div>
-
       <ChartComponent />
-      {/* <PieChart/> */}
+      <Footer />
     </>
   );
 }

@@ -9,7 +9,7 @@ const Banner = ({ title }) => {
   return (
     <div className="sm:my-4 flex flex-row items-center justify-center relative h-[5em] w-full md:w-[36em] md:ml-12 my-2 sm:w-[24em] rounded-full bg-white">
       <div className=" h-20 w-20 rounded-full bg-cyan-500 z-10 absolute -left-4"></div>
-      <h3 className="font-semibold text-xl md:text-3xl md:font-normal ml-12 sm:ml-16">{title}</h3>
+      <h3 className="font-semibold text-xl text-center md:text-start md:text-3xl md:font-normal ml-12 sm:ml-16">{title}</h3>
     </div>
   );
 };

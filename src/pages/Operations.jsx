@@ -84,7 +84,7 @@ function Sponsors2({ title, desc, index }) {
           {title}
         </span>
       </div>
-      <div className="bg-[#0097b2] rounded-xl mt-4 p-4 h-[22em] box-border">
+      <div className="bg-[#0097b2] rounded-xl mt-4 p-4 h-[28em] sm:h-[22em] box-border">
         <p className="text-white font-normal font-sans text-justify text-2xl">
           {desc}
         </p>
@@ -93,7 +93,7 @@ function Sponsors2({ title, desc, index }) {
   );
 }
 
-const HowWeWork = () => {
+export const HowWeWork = () => {
   return (
     // <div className=" w-full h-fit my-2 p-4 flex flex-wrap items-center justify-center">
     <div className="flex flex-wrap md:items-center justify-center my-12">

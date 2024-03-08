@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const CTA = ({ heading, description, action, svg }) => {
+const CTA = ({ heading, description, action, svg,linkTo }) => {
   return (
     <>
       <div className="text-white max-w-[80rem] mx-auto relative">
@@ -21,7 +21,7 @@ const CTA = ({ heading, description, action, svg }) => {
           {/* Donate Button */}
         </div>
         <button className="bg-white text-[#018FA6] hover:bg-gray-200 font-bold py-4 px-10 mt-4 flex justify-center mx-auto">
-          <Link to={"/donate"}>{action}</Link>
+          <Link to={linkTo}>{action}</Link>
         </button>
       </div>
     </>

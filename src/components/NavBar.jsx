@@ -40,7 +40,10 @@ const NavBar = () => {
         </div>
       </nav>
       {navState && (
-        <div className="fixed sm:ml-2 ml-0 h-fit top-16 rounded-xl bottom-0 flex flex-col items-center justify-center z-50 w-[30em] bg-blue-50">
+        <div className="fixed sm:ml-2 mx-[2%] h-fit top-16 rounded-xl bottom-0 flex flex-col items-center justify-center z-50 w-[94%] bg-blue-50"
+        role="alertdialog"
+        
+        >
           <button
             aria-label="close menu"
             className="absolute top-0 right-0 p-4 text-red-600"
