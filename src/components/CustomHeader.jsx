@@ -9,7 +9,7 @@ function CustomHeader({ sideImage, desc }) {
           {desc}
         </h2>
         <button className=" w-60 h-16 rounded-full font-bold text-xl bg-neutral-100 text-slate-800 mb-8 mt-16">
-          <a href="https://admin.nollaafrica.com" className="no-underline">Start Fundraiser</a>
+          <a href="https://edufunddash.kibuti.co.tz" className="no-underline">Start Fundraiser</a>
         </button>
         <div className="invisible lg:visible w-72 h-72 -z-10 bg-gradient-to-br from-cyan to-current rounded-full absolute md:right-24"></div>
       </div>
@@ -22,7 +22,7 @@ function CustomHeader({ sideImage, desc }) {
         </p>
         <div className="h-72 w-72 rounded-full bg-gradient-to-br from-inherit via-current to-inherit absolute right-0 bottom-0"></div>
         <button className="z-20 h-14 mb-4 mt-8 w-72 rounded-full bg-white text-xl font-bold">
-          <a href="https://admin.nollaafrica.com" className="no-un">Start Fundraiser</a>
+          <a href="https://edufunddash.kibuti.co.tz" className="no-un">Start Fundraiser</a>
         </button>
       </div>
     </div>

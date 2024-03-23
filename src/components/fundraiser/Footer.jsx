@@ -22,7 +22,7 @@ function Footer() {
         <img src={image} alt="" className="hidden md:block w-full h-full" />
       </div>
       <button className="hidden md:block md:-mt-24 z-30 bottom-0 self-center h-14 w-60 rounded-full bg-[#018fa6] text-white font-bold text-2xl">
-        Start Fundraiser
+        <a href="https://edufunddash.kibuti.co.tz">Start Fundraiser</a>
       </button>
     </div>
   );

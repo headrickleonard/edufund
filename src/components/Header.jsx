@@ -34,7 +34,7 @@ const Header = () => {
             <div className="mt-5 w-full sm:mt-8 flex flex-row items-center justify-center sm:justify-start">
               <div>
                 <button className="bg-black text-white py-3 px-8 rounded-full hover:bg-gray-700 font-garet text-lg uppercase font-bold border-2 mx-2 border-white">
-                  {/* <a href="https://admin.nollaafrica.com/dashboard">
+                  {/* <a href="https://edufunddash.kibuti.co.tz">
                     Donate now
                   </a> */}
                   <Link to={"/donate"}>Donate</Link>

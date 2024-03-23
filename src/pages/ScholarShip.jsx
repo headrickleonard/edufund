@@ -174,7 +174,7 @@ function ScholarShip() {
       </div>
       <div className="w-full h-20 my-4 mx-2 p-2 flex items-center justify-center">
         <button className="h-16 w-[15em] bg-[#0097b2] rounded-3xl text-3xl box-border font-bold text-white mb-12">
-          <a href="https://admin.nollaafrica.com/register">SignUp Here</a>
+          <a href="https://edufunddash.kibuti.co.tz/register">SignUp Here</a>
         </button>
       </div>
       <Footer/>
